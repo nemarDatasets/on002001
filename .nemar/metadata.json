@@ -1,30 +1,76 @@
 {
   "version": "2.0",
-  "dataset_id": "on002001",
-  "source": "openneuro",
-  "source_id": "ds002001",
+  "pipeline_stage": "validated",
   "title": "Rivalry_Tagging",
+  "license": "PD",
+  "dataset_type": "raw",
   "authors": {
     "Janine Mendola": {},
     "Elizabeth Bock": {}
   },
-  "license": "PD",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds002001.v1.0.0",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on002001",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on002001",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.1.1",
-  "recording_modality": [
+  "modalities": [
     "anat",
     "meg"
   ],
-  "datatypes": [
-    "anat",
-    "meg"
-  ]
+  "resource_type_specific": "Structural MRI Dataset",
+  "sizes": [
+    "87.7 GB (645 files)"
+  ],
+  "formats": [
+    ".acq",
+    ".cfg",
+    ".cls",
+    ".de",
+    ".ds/BadChannels",
+    ".gitattributes",
+    ".hc",
+    ".hist",
+    ".infods",
+    ".json",
+    ".mat",
+    ".md",
+    ".meg4",
+    ".mrk",
+    ".newds",
+    ".nii",
+    ".pos",
+    ".res4",
+    ".segments",
+    ".tsv",
+    ".txt",
+    ".yml"
+  ],
+  "description": "This dataset contains neuroimaging recordings from a binocular rivalry experiment conducted between February and March 2014. The study investigates neural responses to competing visual stimuli using event-related recordings with multiple trigger channels and behavioral markers including pattern presentations and manual responses.",
+  "keywords": [
+    {
+      "term": "binocular rivalry"
+    },
+    {
+      "term": "visual perception"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "neuroimaging"
+    }
+  ],
+  "source_hash": "bd33ed2147431b234b55af17b747cb2d59be10d93c40c8586359d2816c03bf68"
 }
