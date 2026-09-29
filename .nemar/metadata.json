@@ -2,12 +2,27 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Rivalry_Tagging",
+  "description": "Rivalry_Tagging is a neuroimaging dataset of binocular rivalry recordings collected between February and March 2014. Trials include events for pattern presentation (pattern1, pattern2), left and right tap responses, baseline periods, and non-rivalry color (green/red) conditions. Trigger channels (UDIO001, UPPT001) are provided to align stimulus and response events.",
   "license": "PD",
   "dataset_type": "raw",
   "authors": {
     "Janine Mendola": {},
     "Elizabeth Bock": {}
   },
+  "keywords": [
+    {
+      "term": "binocular rivalry"
+    },
+    {
+      "term": "frequency tagging"
+    },
+    {
+      "term": "visual perception"
+    },
+    {
+      "term": "MEG"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds002001.v1.0.0",
@@ -20,18 +35,18 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on002001",
+      "identifier": "https://nemar.org/dataset/on002001",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     }
   ],
+  "resource_type_specific": "Structural MRI Dataset",
   "modalities": [
     "anat",
     "meg"
   ],
-  "resource_type_specific": "Structural MRI Dataset",
   "sizes": [
-    "87.7 GB (645 files)"
+    "81.67 GB (645 files)"
   ],
   "formats": [
     ".acq",
@@ -56,21 +71,6 @@
     ".tsv",
     ".txt",
     ".yml"
-  ],
-  "description": "This dataset contains neuroimaging recordings from a binocular rivalry experiment conducted between February and March 2014. The study investigates neural responses to competing visual stimuli using event-related recordings with multiple trigger channels and behavioral markers including pattern presentations and manual responses.",
-  "keywords": [
-    {
-      "term": "binocular rivalry"
-    },
-    {
-      "term": "visual perception"
-    },
-    {
-      "term": "event-related potentials"
-    },
-    {
-      "term": "neuroimaging"
-    }
   ],
   "source_hash": "bd33ed2147431b234b55af17b747cb2d59be10d93c40c8586359d2816c03bf68"
 }
